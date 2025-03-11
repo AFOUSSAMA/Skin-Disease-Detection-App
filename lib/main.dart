@@ -7,9 +7,11 @@ import 'package:skin_disease_detection/screens/Introduction/intro.dart';
 import 'package:skin_disease_detection/screens/MainScreen/mainScreen.dart';
 import 'screens/Introduction/intro.dart';
 import 'screens/DoandDont/Doees.dart';
+import 'login_register_app.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const LoginRegisterApp());
+  //runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
