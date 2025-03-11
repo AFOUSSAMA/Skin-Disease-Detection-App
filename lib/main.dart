@@ -8,6 +8,7 @@ import 'package:skin_disease_detection/screens/MainScreen/mainScreen.dart';
 import 'login_register_app.dart';
 
 void main() {
+  //run directly to Login screen
   runApp(const LoginRegisterApp());
   //runApp(const MyApp());
 }
