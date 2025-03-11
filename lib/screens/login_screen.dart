@@ -153,6 +153,9 @@ class _LoginPageState extends State<LoginPage> {
                                 );
                                 emailController.clear();
                                 passwordController.clear();
+                                NavigationHelper.pushReplacementNamed(
+                                  AppRoutes.myapp,
+                                );
                               }
                             : null,
                         child: const Text(AppStrings.login),

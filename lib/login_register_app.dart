@@ -8,7 +8,7 @@ import 'values/app_strings.dart';
 import 'values/app_theme.dart';
 
 class LoginRegisterApp extends StatelessWidget {
-  const LoginRegisterApp({Key? key}) : super(key: key); //super.
+  const LoginRegisterApp({super.key}); //super.
 
   @override
   Widget build(BuildContext context) {

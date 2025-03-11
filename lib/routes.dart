@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:skin_disease_detection/main.dart';
 
 import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
@@ -26,6 +27,9 @@ class Routes {
 
       case AppRoutes.register:
         return getRoute(widget: const RegisterPage());
+
+      case AppRoutes.myapp:
+        return getRoute(widget: const MyApp());
 
       /// An invalid route. User shouldn't see this,
       /// it's for debugging purpose only.

@@ -5,8 +5,6 @@ import 'package:skin_disease_detection/screens/Aboutus/aboutcreaters.dart';
 import 'package:skin_disease_detection/screens/DoandDont/Doees.dart';
 import 'package:skin_disease_detection/screens/Introduction/intro.dart';
 import 'package:skin_disease_detection/screens/MainScreen/mainScreen.dart';
-import 'screens/Introduction/intro.dart';
-import 'screens/DoandDont/Doees.dart';
 import 'login_register_app.dart';
 
 void main() {
